@@ -1,0 +1,15 @@
+.width1{
+    width:30%;
+}
+
+
+/*modal*/
+.modal-header, h4, .close {
+    background-color: #656160;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+}
+.modal-footer {
+    background-color: #f9f9f9;
+}

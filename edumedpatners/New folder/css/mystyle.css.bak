@@ -1,0 +1,82 @@
+
+.space{
+	height:100%;
+	clear:both;
+}
+.title{
+	margin-left:24%;
+	margin-top:0px;
+}
+.titles{
+	border-style:solid;
+	border-color:#08083a;
+	padding:4px;
+	width:60%;
+	height:1 auto;
+	border-radius:4px;
+	border-width:1px;
+	color:#062444;
+	background-color:rgba(0,0,0,0);
+	text-align:center;
+	transition: background-color 0.5s ease;
+ 
+	
+}
+.titles:hover{
+	background-color:rgba(120, 205, 120, 0.8);
+}
+.follow{
+	border-style:solid;
+	border-color:#08083a;
+	padding:1.8px;
+	width:40%;
+	height:1 auto;
+	border-radius:4px;
+	border-width:1px;
+	color:#062444;
+	background-color:light-blue;
+	text-align:center;
+	transition: background-color 0.5s ease;
+ 
+	
+}
+.follow:hover{
+	background-color:blue;
+}
+.pagestrending{
+	border-width:1px;
+	border-color:blue;
+	border-style:solid;
+	border-radius:2px;
+	padding:4px;
+}
+.navbar-inverse {
+border-color: rgb(75, 142, 135);
+background:url("images/bg-pattern.png"),linear-gradient(to left,#2a8a62,#2e648a);
+}
+.profile{
+	border-width:2px;
+	border-color:#350335;
+	border-radius:20px;
+}
+
+.ico{
+	font-size:50px;
+	margin-top:;
+	margin-left:30%
+}
+.ico:before {
+  font-size: 92px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1b1b1f), to(#291f3e));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: initial; /* reset Font Awesome's display:inline-block */
+}​
+.article{
+	background-color:green;
+}
+@media screen and (max-width:600px) and (min-width:123px){
+	.title{
+		margin-left:20%;
+	}
+}

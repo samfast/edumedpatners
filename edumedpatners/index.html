@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edumed Patners</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Playfair+Display|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
+   <!--footer stylesheet-->
+    <link rel="stylesheet" href="css/footer_style.css">
+    <!--font-awesome-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--custom-->
+    <link rel="stylesheet" href="css/main_style.css">
+<style>
+
+    body{
+
+
+    }
+    .top{
+        background-image:url("images/background.jpg");
+        height:800px;
+
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    .adminlog{
+        margin-top: 2px;
+        border: 2px solid #58ca7e;
+        background: #58ca7e;
+        padding: 6px 23px !important;
+        display: -moz-inline-stack;
+        display: inline-block;
+        zoom: 1;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        -ms-border-radius: 30px;
+        border-radius: 30px;
+        color: #fff;
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+    }
+    .adminlog:hover{
+        font-weight: 700;
+        color:grey;
+        text-decoration: none;
+
+    }
+
+    .navigation{
+        z-index: 8;
+        padding: 6px;
+
+        margin-top: 30px;
+        color: gray;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+    .navigation h3{
+        margin-top: 10px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:;
+    }
+
+    li {
+        float: left;
+
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+    li a {
+        position: relative;
+        font-size: 15.8px;
+        font-weight: 900;
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 12px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        text-decoration: none;
+        color:#fafafa;
+    }
+    li a:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+
+    }
+    a:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+    }
+
+    .logo{
+        font-family: 'Cormorant', serif;
+        font-weight:bold;
+    }
+
+.nxt{
+    background-color: rgba(91, 94, 113, 0.4);
+    height: 210px;
+
+    position:absolute;
+    bottom: 0;
+}
+
+#contribute{
+    margin-top: 20px;
+}
+    .seperator_auto{
+        width: 85px;
+        height: 2px;
+        margin: 20px auto;
+        background: #ff6863;
+    }
+    .seperator_auto{
+        background:#e91e63;
+    }
+    .seperator_auto_sm{
+        width: 30px;
+        height: 2px;
+        margin: 1px auto;
+        background:#e91e63;
+    }
+    .fa{
+        font-size: 30px;
+        font-stretch: expanded;
+    }
+    #payment{
+    display: none;
+
+    }
+    .normal{
+        padding-bottom: 6px;
+    }
+    .form-control{
+        height:40px;
+        border-radius: 3px;
+    }
+    .p_header{
+        height:1px;
+    }
+    .red{
+        color: #e91e63;
+    }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+    }
+    .carousel-inner{
+        background-image: url("images/consult.jpg");
+        height:360px;
+        text-align: center;
+    }
+    .item{
+        margin-top: 330px;
+
+    }
+    .testimonial-icon{
+        border:solid 6px #fafafa;
+
+    }
+
+
+</style>
+</head>
+<body>
+<div class="row top" style="color:white">
+    <div class="col-sm-12 navigation" >
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3"><h3 class="logo"><span style="color:#fafafa">Edumed</span> <span style="color:#e91e63">Patners</span></h3></div>
+        <div class="col-sm-5 left">
+            <ul>
+                <li><a class="navitem " href="#">Home</a></li>
+                <li><a class="navitem"href="#">Contribute</a></li>
+                <li><a class="navitem" href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-3 text-center"><a href="#" class="adminlog">Admin LogIn</a> </div>
+    </div>
+    <div class="col-sm-12 second_col">
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-6" id="welcome_note" >
+            <h3 class="text-center">Welcome to Edumed</h3>
+            <p class="text-center" style="">
+                Far far away, behind the word mountains, far from
+                the countries Vokalia and Consonantia, there live the blind texts.
+                Separated they live in Bookmarksgrove right at the coast of the Semantics.
+                Far far away, behind the word mountains, far from
+                the countries Vokalia and Consonantia, there live the blind texts.
+                Separated they live in Bookmarksgrove right at the coast of the Semantics.
+            </p>
+            <div class="text-center ">
+                <button class="adminlog" id="contribute">
+                    contribute
+                 </button>
+            </div>
+        </div>
+        <div class="col-md-3">
+
+        </div>
+
+
+    </div>
+    <div class="col-sm-12" id="payment">
+        <p>Payment Methods</p>
+    </div>
+    <div class="col-sm-12 nxt">
+        <div class="col-sm-3">
+
+        </div>
+        <div class="col-sm-6 welcome">
+            <h3 class="text-center">Our processes are now More Efficient.</h3>
+            <p class="text-center">All you need is your email address and password,
+                or mobile number and PIN. No need to remember all
+                your card details, cryptic codes or secret handshakes. Start shopping now.</p>
+        </div>
+        <div class="col-sm-3">
+
+        </div>
+    </div>
+</div>
+<div class="row text-center" style="height:auto;color:black">
+    <div class="col-sm-12"> <h3>Our Services</h3>
+        <div class="seperator_auto"></div>
+    </div>
+
+
+    <div class="col-sm-12 services">
+        <div class="col-sm-4">
+            <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i><br>
+            <p class="p_header"> Branding</p><br>
+           <div class="seperator_auto_sm"></div><br>
+            <p class="normal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+        <div class="col-sm-4">
+            <i class="fa fa-cutlery fa-5x" aria-hidden="true"></i><br>
+            <p class="p_header"> Cake Fest</p><br>
+            <div class="seperator_auto_sm"></div><br>
+            <p class="normal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+                nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+        <div class="col-sm-4">
+            <i class="fa fa-gift fa-5x" aria-hidden="true"></i><br>
+            <p class="p_header">  Charity</p><br>
+            <div class="seperator_auto_sm"></div><br>
+           <p class="normal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
+               nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+    </div>
+</div>
+<!--textimanials-->
+<div class="row">
+    <div class="col-sm-12 text-center"> <h3>What Our Members Say</h3>
+        <div class="seperator_auto"></div>
+    </div>
+</div>
+<div class="row">
+
+    <div id="carousel-example" class="carousel slide" data-ride="carousel">
+       <!-- <div class="col-sm-12">-->
+            <div clas="col-sm4"></div>
+            <div class="col-sm4">
+                <ol class="carousel-indicators">
+                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example" data-slide-to="1"></li>
+                <li data-target="#carousel-example" data-slide-to="2"></li>
+
+            </ol>
+            </div>
+            <div class="col-sm-4">
+
+            </div>
+        <!--</div>-->
+        <div class="carousel-inner" >
+            <div class="item active">
+                <a href="#"></a>
+                <div class="carousel-caption">
+                    <img src="images/hero.jpg" class="img img-circle testimonial-icon" height="110" width="120px">
+                    <p>Lorem ipsum dolor amet, consectetur
+                        adipiscing elit. Etiam consectetur aliquet aliquet. Interdum et  <br>
+                        Tasha John</p>
+
+                </div>
+            </div>
+            <div class="item">
+                <a href="#"></a>
+                <div class="carousel-caption">
+                    <img src="images/hero.jpg" class="img img-circle testimonial-icon" height="110px" width="120px">
+                    <p>Lorem ipsum dolor amet, consectetur adipiscing elit.
+                        Etiam consectetur aliquet aliquet. Interdum et <br> Howard Mahn</p>
+
+                </div>
+            </div>
+            <div class="item">
+                <a href="#"></a>
+                <div class="carousel-caption">
+                    <img src="images/hero.jpg" class="img img-circle testimonial-icon" height="110px" width="120px">
+                    <p>Lorem ipsum dolor amet, consectetur adipiscing elit.
+                        Etiam consectetur aliquet aliquet. Interdum et <br>
+                        John Kamau</p>
+
+                </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+<div class="row">
+    <!--send us a message-->
+    <div class="col-sm-12 text-center"> <h3>Get In touch with us</h3>
+        <div class="seperator_auto"></div>
+    </div>
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-10">
+        <div class="col-sm-12 text-center">
+            <div class="col-sm-4">
+                <span>
+                    <i class="fa fa-map-marker red"></i>
+                </span>
+                <p>Nairobi,Kenya</p>
+            </div>
+            <div class="col-sm-4">
+                   <span>
+                    <i class="fa fa-phone red"></i>
+                </span>
+                <p>+254 700-000-000</p>
+            </div>
+            <div class="col-sm-4">
+                   <span>
+                    <i class="fa fa-envelope red"></i>
+                </span>
+                <p>Nairobi,Kenya</p>
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <form class="" action="" method="post">
+
+                <div class="col-sm-6 form-group">
+                    <input type="text" required="required" class="form-control" name="" placeholder="name"/>
+
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input type="e-mail" required="required" class="form-control" name="" placeholder="e-mail address"/>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input type="text"required="required" class="form-control" name="" placeholder="company"/>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input type="text" required="required" class="form-control" name="" placeholder="website"/>
+                </div>
+                <div class="col-sm-12 form-group">
+                    <textarea rows="8" required="required" class="form-control" name="">
+                    </textarea>
+                    <div class="text-center">
+                        <button class="adminlog" id="send_mail">
+                            send e-mail
+                        </button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <div class="col-sm-1">
+    </div>
+</div>
+<!--footer-->
+<div class="row" id="foot">
+    <footer id="myFooter" style="margin-bottom:0px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <p>Get started</p>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <p>About us</p>
+                    <ul>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <p>Support</p>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 info">
+                    <p>Information</p>
+                    <p> Lorem ipsum dolor amet, consectetur adipiscing elit. Etiam consectetur aliquet aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+                </div>
+            </div>
+        </div>
+        <div class="second-bar">
+            <div class="container">
+                <h3 class="logo col-sm-3"><span style="color:#fafafa">Edumed</span> <span style="color:#e91e63">Patners</span></h3>
+                <div class="social-icons col-sm-9">
+                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</div>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $("#welcome_note").fadeIn(3000);
+        $("#contribute").fadeIn(3010);
+    });
+    $("#contribute").click(function(){
+        $(".nxt").fadeOut(2000);
+        var sel=$("#payment");
+        sel.fadeIn(3000);
+        sel.addClass("nxt");
+
+    });
+
+
+
+</script>
+
+</body>
+</html>

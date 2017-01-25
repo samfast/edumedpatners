@@ -1,0 +1,35 @@
+#welcome_note{
+    display: none;
+}
+#welcome_note h3,p{
+    line-height: 1.6;padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;;
+    font-size: 18px;
+}
+.second_col{
+    margin-top:100px;
+}
+.left ul{
+    padding-left: 85px;
+}
+#payment{
+    text-align: center;
+}
+@media screen and (min-width:100px) and (max-width:700px){
+    .nxt{
+        display: none;
+    }
+    #welcome_note h3,p{
+        margin-top:8px ;
+        padding-top:10px;
+        padding-bottom:10px;
+    }
+    .second_col{
+        margin-top: 30px;
+    }
+    .left ul{
+        padding-left:12%;
+    }
+}
